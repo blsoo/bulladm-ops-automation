@@ -20,6 +20,7 @@ REQUIRED = [
     "SECURITY_BOUNDARY.md",
     "DECISIONS.md",
     "INTERVIEW_GUIDE.md",
+    "ROADMAP.md",
 ]
 
 FORBIDDEN_PATTERNS = {
