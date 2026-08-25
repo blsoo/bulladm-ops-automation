@@ -1,5 +1,7 @@
 # BullADM — safe operations from a mobile control plane
 
+[![BullADM portfolio checks](https://github.com/blsoo/bulladm-ops-automation/actions/workflows/portfolio-checks.yml/badge.svg)](https://github.com/blsoo/bulladm-ops-automation/actions/workflows/portfolio-checks.yml)
+
 BullADM is an operational-automation case study about making privileged changes safer when the operator is away from a workstation.
 
 The Telegram interface is only the front door. The engineering problem is the workflow behind it:
@@ -51,6 +53,7 @@ flowchart LR
 | [OPERATION_CONTRACT.md](OPERATION_CONTRACT.md) | public-safe request/state/error contract |
 | [TEST_SCENARIOS.md](TEST_SCENARIOS.md) | system-level verification scenarios |
 | [TRACEABILITY.md](TRACEABILITY.md) | requirement -> workflow -> contract -> test mapping |
+| [DECISIONS.md](DECISIONS.md) | ADR-style design choices and trade-offs |
 | [SECURITY_BOUNDARY.md](SECURITY_BOUNDARY.md) | what the public case deliberately does and does not expose |
 
 ## Main design idea
